@@ -1,0 +1,56 @@
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --black: #171321;
+  --bright-yellow: hsl(71, 73%, 54%);
+  --ltgray: hsl(204, 43%, 93%);
+  --grayishblue: hsl(218, 22%, 67%);
+  --white: #f7f8fa;
+  --font-size: 1rem;
+  --sans: Klara, sans-serif;
+
+}
+
+
+h1, h3, h4, p, ul {
+  font-family: var(--sans);
+
+}
+
+section {
+  background-color: var(--white);
+  padding: 4rem;
+  margin: auto;
+}
+
+section h1 {
+  color: var(--cyan);
+  font-size: 2rem;
+}
+section h3 {
+  color: var(--bright-yellow);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+section p {
+  color: var(--black);
+  font-weight: 400;
+}
+
+#subscribe {
+  background-color: var(--cyan);
+  width: 400px;
+  height: auto;
+  padding: 2rem;
+  margin: auto;
+}
+
+#subscribe h4 {
+font-size: 2rem;
+font-family: var(--sans);
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+}
